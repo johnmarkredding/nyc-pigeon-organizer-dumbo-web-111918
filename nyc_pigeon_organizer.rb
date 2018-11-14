@@ -8,7 +8,8 @@ def nyc_pigeon_organizer(data)
           end
           if new_data[x][cat] == nil
             new_data[x][cat] = [k]
-
+          else
+            new_data[x][cat] << k
           end
         end
       end
