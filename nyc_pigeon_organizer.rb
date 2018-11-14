@@ -7,6 +7,8 @@ def nyc_pigeon_organizer(data)
             new_data[x] = {}
           end
           if new_data[x][cat] << k
+            
+          end
         end
       end
     end
