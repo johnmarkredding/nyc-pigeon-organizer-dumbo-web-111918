@@ -5,11 +5,8 @@ def nyc_pigeon_organizer(data)
         v.each do |x|
           if new_data[x] == nil
             new_data[x] = {}
-          elsif
-            
-          else
-            new_data[x][cat] << k
           end
+          new_data[x][cat] << k
         end
       end
     end
